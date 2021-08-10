@@ -1,6 +1,7 @@
 # CounterApp with testing
 
-NOTA: Recuerden que si desean ejecutar esta aplicación, deben de reconstruir los módulos de node así:
+## Instalaciones
+Recuerden que si desean ejecutar esta aplicación, deben de reconstruir los módulos de node así:
 
 ```
 npm install
@@ -16,12 +17,12 @@ npm start
 
 En la primera aplicacion con React, creamos un `Functional Component` llamado `PrimeraApp` y aplicamos:
 
-### Props y su desestructuracion 
+## Props y su desestructuracion 
 ```
     const PrimeraApp = ({ saludo, subtitulo }) => {
 ```
 
-### PropTypes
+## PropTypes
 
 ```
 PrimeraApp.propTypes = {
@@ -29,7 +30,7 @@ PrimeraApp.propTypes = {
 }
 ```
 
-### DefaultProps
+## DefaultProps
 
 ```
 PrimeraApp.defaultProps = {
@@ -39,7 +40,7 @@ PrimeraApp.defaultProps = {
 
 El segundo componente que creamos es `CounterApp`, he hicimos una introduccion general a los Hooks:
 
-### useState
+## useState
 
 ```
     const [ counter, setCounter ] = useState( value );
